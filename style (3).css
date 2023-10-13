@@ -1,0 +1,489 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+body{
+  font-family: 'Young Serif', serif;
+  height: 400px
+}
+:root{
+--min-color:yellow
+
+}
+.imge img{
+margin-left: 20px;
+  width: 80px
+}
+ul{
+  list-style: none;
+  
+  margin: 0;
+  
+  padding:10px 50px
+  
+}
+ul li{
+  display: inline-block;
+  padding:10px 10px;
+  
+}
+.header{
+  display:flex;
+ justify-content: space-between;
+   
+   background-size: contain;
+   font-weight:center;
+   height: 400px;
+   background-image: url(photo.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment:scroll;
+   background-position:100% 50%
+
+}
+
+
+
+
+
+
+.header ul li a{
+  text-decoration: none;
+    color:#FFFFFF
+
+}
+.header ul li a:hover{
+  border-bottom: 2px solid #D17904
+}
+@media(max-width:600px){
+  
+.imge img{
+margin-left: 0px;
+  width: 40px}
+ul{
+  list-style: none;
+  
+  margin: 0;
+  
+  padding:0;
+  
+}
+ul li{
+  
+  padding:5px 5px;
+  
+  
+  
+}
+.section{
+  width: 20px;
+  margin:0;
+  padding: 0
+}
+}
+
+
+
+
+
+
+
+
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top:-200px;
+  line-height: 45px;
+  
+}
+.food{
+  color:yellow
+}
+.content p {
+  color: #FFF6F6A6
+}
+.content h1{
+  color:#FFFDFD
+}
+.btn {
+  text-decoration: none;
+  border:2px solid white;
+  color:white;
+  border-radius: 8px;
+  margin:0;
+  padding:7px 20px;
+}
+.btn:hover{
+  background-color: yellow;
+  color:black
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  left:0;
+  top:0;
+  width: 100%;
+  height: 22%;
+background:rgba(0, 0, 0, 0.5)
+}
+*{
+  z-index: 15
+}
+.contener{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  text-align: center;
+  
+ 
+}
+.title h1,
+.abou h1,
+.titl h1,
+.conso h1{
+  font-size: 40px;
+  text-align:bold;
+  margin:6px 0px
+  
+}
+.title h1{
+      color: rgba(25, 25, 186, 0.78);
+
+
+}
+.title {
+  color:#000000
+}
+.section{
+  margin: 80px;
+  
+}
+
+  
+.more{
+  width: 500px;
+}
+.more p{
+  color :#000000BD
+}
+.more a{
+  text-decoration: none;
+  position: absolute;
+margin-top:20px;
+right:600px;
+border: 2px solid #FFFFFF;
+border-radius: 10px;
+padding:10px 20px;
+background-color: rgba(25, 25, 186, 1);
+color:#FFFFFF;
+font-size: 20px;
+}
+.btnn:hover{
+  background-color: #F8F8F8;
+  color: #000000;
+  border: 2px solid black
+}
+.jpg img{
+  width: 300px;
+  position: absolute;
+  margin-left: 650px;
+  margin-top: -230px;
+  border-radius: 15px
+}
+.about{
+  background-color:#00000096;
+  height: 30vh;
+  margin: 0
+}
+.abou{
+  text-align: center;
+  padding:50px 0;
+
+}
+.abou h1{
+  color:var(--min-color)
+}
+.abou p{
+  color:#FFFFFF
+}
+.aboout{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align: center;
+ color:#FCFCFF
+}
+.aboout img{
+  width: 110px;
+  border-radius: 400px;
+  
+}
+.oo img{
+  width: 178px
+}
+.aa img{
+  width: 148px;
+  
+  
+}
+.aboout p{
+  width: 200px;
+  padding:15px 0;
+  
+}
+
+.aboout h3{
+  padding: 15px 0;
+  
+}
+
+.del .uu {
+  color:yellow;
+  padding: 0 9px;
+  font-size: 20px
+  
+}
+.bb{
+  padding: 0px 100px;}
+ 
+.menu-left img{
+  
+  width: 80px;
+  height:100px;
+  border-radius: 100%;
+  
+  
+}
+
+ 
+.menu-right img{
+  
+  width: 75px;
+  height:100px;
+  border-radius: 100%;
+ 
+
+}
+
+.menu{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+   
+
+}
+.left{
+  display: flex;
+  justify-content: center;
+ align-items: center;
+ text-align: center;
+ padding: 40px 0;
+ overflow: hidden;
+ 
+}
+.left img{
+  transition: (2.5)
+}
+img :hover{
+    transform: rotate(100deg)
+
+}
+.left p{
+  margin-top: 20px;
+    padding:0 20px;
+    width: 200px;
+    margin-left:-10px;
+color:#02020299;
+
+}
+.left h1{
+  margin-left: 10px;
+  text-align: center;
+  
+ 
+}
+.sp{
+  color:#F08E01;
+ font-size: 20px;
+ margin-left:-100px;
+font-weight:900
+}
+.iv{
+  position: absolute;
+  margin-top: -50px;
+  margin-left: -150px
+}
+.menu-right{
+  margin-left:-90px
+}
+.menu-left{
+  margin-left: 100px;
+  padding: 0 10px
+}
+.titl h1{
+  text-align: center;
+  color: rgba(25, 25, 186, 0.78);
+
+
+}
+.titl{
+   
+height: 6vh;
+margin-top: 20px
+}
+.titl p{
+  text-align: center;
+  
+}
+.bt {
+  text-decoration: none;
+  border:2px solid white;
+  color:#FFF;
+  background-color: rgba(25, 25, 186, 1);
+ ;
+  border-radius: 8px;
+  padding:7px 20px;
+  
+}
+.btt{
+  margin: 30px 0;
+    text-align : center;
+
+  
+}
+.bt:hover{
+  background-color: yellow;
+  color:black
+}
+.icons{
+  width: 100px;
+  background-color: #E4D90E69;
+  height: 23vh;
+  width: 53.5vh;
+ margin: 0 0px;
+
+}
+.icon img{
+  width: 150px;
+  height: 200px;
+  margin:0 10px
+}
+.iconss{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 100px  50px 0;
+  
+}
+.icon{
+  margin: 70px 0
+}
+.icon h1{
+  margin-top:-16px;
+  color:#0D1CC4;
+font-weight: 900px;
+font-size: 30px
+
+}
+.icon p {
+ color:#000000;
+  font-weight: 900px;
+  font-size: 20px;
+  margin: 15px 0
+}
+.conso img{
+  width: 250px;
+  height: 250px;
+border-radius: 20px;
+margin: 0 10px;
+
+
+}
+.our h1{
+  color:yellow;
+  text-align: center;
+  margin: 0 0 40px 0;
+  
+}
+.conso{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+    
+
+}
+.consomas{
+  
+    background-color:#00000096;
+
+  opacity: 0.9;
+    width: 100px;
+  height: 36vh;
+  width: 53.8vh;
+ margin: 0 ;
+
+}
+.sochi img{
+  width: 25px;
+  
+}
+.media{ 
+  padding:100px 100px;
+ background-color: #0000001F;
+ 
+ 
+}
+
+.sochi p{
+  color:#00000073;
+  
+}
+.sochi a img{
+  background-color: yellow;
+  border-radius: 50%;
+  font-size: 15px
+}
+
+.sochil{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding:10px 40px
+}
+form input{
+  display: block;
+  justify-content:center;
+  align-items:center;
+  font-size: 25px;
+  border:2px solid black;
+  margin: 4px 0
+}
+.sochi{
+  padding: 40px 60px
+}
+
+form textarea{
+  padding:40px 120px;
+  border: 2px solid black;
+  margin: 4px 0
+}
+.butto{
+  padding:10px 15px;
+  border-radius: 10px;
+  background-color: yellow
+  
+}
+.butto:hover{
+  background-color: #101FC1;
+  color:#FFFFFF
+}
